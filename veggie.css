@@ -1,0 +1,69 @@
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #E10707!important;
+    margin-left: 6rem;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+#nav-text{
+    font-size: 1.9rem;
+}
+
+.navbar-nav .nav-link{
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 4px;
+	color: rgba(0, 0, 0, 1)!important;
+    line-height: 80px;
+    padding-left: 3rem;
+}
+
+.jumbotron {
+    height: 686px;
+    background-image:url("https://itsjustwings.com/assets/images/banner-fullmenu.jpg");
+    background-size:100% 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+
+#jumbotron-text {
+    font-family: 'Anton', sans-serif;
+    color: #FBF3F3;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ff0000;
+    padding: 1rem 2rem;
+    text-align: center;
+    
+}
+
+.lead {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+
+}
+
+.txt-orange,.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #0F0101!important
+}
+
+.txt-yellow,.navbar-nav .nav-item:nth-last-child(1) .nav-link {
+    color: #E10707!important
+}
+
+.bg-orange {
+    background: #0F0101!important
+}
+
+.bg-yellow {
+    background: #f99f1d!important
+}
+
+
+
+
