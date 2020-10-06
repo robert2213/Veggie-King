@@ -1,3 +1,11 @@
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #FDFCFB;
+}
+
 .navbar-brand {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
@@ -9,43 +17,48 @@
 }
 
 #nav-text{
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 .navbar-nav .nav-link{
 	font-family: 'Anton', sans-serif;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 35px;
 	letter-spacing: 4px;
 	color: rgba(0, 0, 0, 1)!important;
     line-height: 80px;
-    padding-left: 3rem;
+}
+
+#navHeader {
+    background-color:#FAF8F5;
 }
 
 .jumbotron {
-    height: 686px;
+    height: 100px;
     background-image:url("https://itsjustwings.com/assets/images/banner-fullmenu.jpg");
     background-size:100% 100%;
     height: fit-content;
     background-repeat: no-repeat;
     margin-bottom: 2rem;
-    background-color: #fff;
 }
 
 #jumbotron-text {
     font-family: 'Anton', sans-serif;
     color: #FBF3F3;
     text-transform: uppercase;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 5px #ff0000;
     padding: 1rem 2rem;
     text-align: center;
-    
 }
 
 .lead {
     font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.9px;
     text-align: center;
-
+}
+a.btn.btn-warning.btn-lg.mt-1{
+    color: white;
 }
 
 .txt-orange,.navbar-nav .nav-item:nth-child(1) .nav-link {
@@ -63,6 +76,131 @@
 .bg-yellow {
     background: #f99f1d!important
 }
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.veggie-menu-desc {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 35%;
+    top: 23%;
+    transform: translate(-30%, -30%);
+}
+
+.veggie-menu-title {
+    font-family:'Anton', sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 2.9px;
+    
+}
+
+.veggie-menu-text {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.viewFullMenu {
+    font-family:'Anton', sans-serif ;
+    text-transform: uppercase;
+}
+
+
+.card-body {
+    background:#FFC300;
+    font-family:'Anton', sans-serif ;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.8px;
+    color: white;
+    height: 70px;
+
+}
+
+
+
+
+
+.doordash-desc {
+    background: #f05022!important;
+    color: #fff;
+    max-width: 950px;
+    max-height: 950px;
+}
+
+.doordash-title {
+    font-family:'Anton', sans-serif ;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15rem;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.doordash-text {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 27px;
+    padding-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 2px;
+}
+
+.doordash-desc-inner a.order-now {
+    color: #f05022;
+}
+
+
+.doordash-button {
+    font-family:'Anton', sans-serif ;
+    padding-top: 3rem;
+    padding-bottom:328px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
